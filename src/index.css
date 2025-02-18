@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-dark text-light;
+}
+
+.section-padding {
+  @apply py-16 px-4 md:px-16;
+}
+
+.section-title {
+  @apply text-3xl font-bold mb-8 text-secondary;
+} 
