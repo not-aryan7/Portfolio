@@ -11,6 +11,16 @@ const Projects = () => {
       technologies: ["React", "Node.js", "MongoDB"]
     },
     {
+      title: "CryptoDashboard",
+      description: [
+        "Built a crypto dashboard to monitor cryptocurrency prices, trends, and market data",
+        "Connected to live data sources and presented insights in a clean, responsive layout",
+        "Published the source code for easy review and deployment"
+      ],
+      technologies: ["React", "APIs", "Charting"],
+      link: "https://github.com/not-aryan7/dashboardcrypto.git"
+    },
+    {
       title: "Metascan",
       description: [
         "Developed Metascan, a VR face recognition tool that detects faces, captures images, and searches for identities online",
@@ -40,6 +50,18 @@ const Projects = () => {
                 </span>
               ))}
             </div>
+            {project.link && (
+              <div className="mt-4">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-secondary hover:text-light underline"
+                >
+                  View Repository
+                </a>
+              </div>
+            )}
           </div>
         ))}
       </div>
