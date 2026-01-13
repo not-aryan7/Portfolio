@@ -16,22 +16,12 @@ const Education = () => {
           {/* Left - Title */}
           <div>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-charcoal leading-tight tracking-tight uppercase">
-              CRAFTING MEANINGFUL
+              MASTERING THE LOGIC
               <br />
-              <span className="font-accent italic font-normal text-olive normal-case">Brands &</span> INTUITIVE
+              OF <span className="font-accent italic font-normal text-olive normal-case">Algorithms &</span> MARKET
               <br />
-              EXPERIENCES
+              DYNAMICS
             </h2>
-
-            <p className="mt-8 text-charcoal-light leading-relaxed max-w-lg">
-              Hey, I'm Aryan, a Computer Science & Economics student passionate about creating
-              visual experiences that are both compelling and user-friendly.
-            </p>
-
-            <p className="mt-4 text-charcoal-light leading-relaxed max-w-lg">
-              With a keen eye for aesthetics and a deep understanding of technology,
-              I build solutions that not only look great but also resonate with users.
-            </p>
           </div>
 
           {/* Right - Education Card */}

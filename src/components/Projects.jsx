@@ -32,7 +32,7 @@ const Projects = () => {
       title: "Retirement Monte Carlo Simulator",
       description: "A Python-based stochastic simulation tool that projects portfolio survival rates by running thousands of market scenarios to account for sequence of returns risk.",
       technologies: ["Python", "NumPy", "Matplotlib"],
-      link: "#", // Placeholder as no link was provided, or using the simulation view action concept
+      link: "#",
       buttonLabel: "View Simulation",
       icon: (
         <svg className="w-6 h-6 text-charcoal group-hover:text-olive transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
