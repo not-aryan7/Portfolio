@@ -2,14 +2,137 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-dark text-light;
+/* Base styles */
+html {
+  scroll-behavior: smooth;
 }
 
+body {
+  @apply bg-cream text-charcoal font-body;
+  overflow-x: hidden;
+}
+
+/* Selection styling */
+::selection {
+  @apply bg-olive text-cream;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-cream-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-sand rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-olive/50;
+}
+
+/* Section styling */
 .section-padding {
-  @apply py-16 px-4 md:px-16;
+  @apply py-20 px-6 md:px-12 lg:px-24;
 }
 
 .section-title {
-  @apply text-3xl font-bold mb-8 text-secondary;
-} 
+  @apply font-display text-4xl md:text-5xl font-bold mb-8 text-charcoal tracking-tight;
+}
+
+/* Editorial card styling */
+.card {
+  @apply bg-warm-white border border-sand/30 rounded-2xl p-6 md:p-8;
+  @apply transition-all duration-300 ease-out;
+}
+
+.card:hover {
+  @apply border-olive/30 shadow-lg;
+  transform: translateY(-2px);
+}
+
+/* Button styles */
+.btn {
+  @apply font-body font-medium tracking-wide px-6 py-3 rounded-full;
+  @apply transition-all duration-300 ease-out inline-flex items-center gap-2;
+}
+
+.btn-primary {
+  @apply bg-charcoal text-cream;
+}
+
+.btn-primary:hover {
+  @apply bg-olive;
+}
+
+.btn-outline {
+  @apply border-2 border-charcoal text-charcoal bg-transparent;
+}
+
+.btn-outline:hover {
+  @apply bg-charcoal text-cream;
+}
+
+/* Tag styling */
+.tag {
+  @apply font-body text-xs tracking-wider px-3 py-1.5 rounded-full;
+  @apply bg-cream-dark text-charcoal-light border border-sand/50;
+  @apply transition-all duration-300;
+}
+
+.tag:hover {
+  @apply bg-olive/10 border-olive/30;
+}
+
+/* Stat card */
+.stat-card {
+  @apply text-center p-4;
+}
+
+.stat-number {
+  @apply font-display text-5xl md:text-6xl font-bold text-charcoal;
+}
+
+.stat-label {
+  @apply font-body text-sm text-charcoal-light mt-1 uppercase tracking-wider;
+}
+
+/* Marquee */
+.marquee-container {
+  @apply overflow-hidden whitespace-nowrap;
+}
+
+.marquee-content {
+  @apply inline-flex animate-marquee;
+}
+
+/* Focus states */
+*:focus-visible {
+  @apply outline-none ring-2 ring-olive ring-offset-2 ring-offset-cream;
+}
+
+/* Divider */
+.divider {
+  @apply w-full h-px bg-sand/50 my-8;
+}
+
+/* Service item styling */
+.service-item {
+  @apply border-r border-sand/50 px-6 py-4 last:border-r-0;
+}
+
+/* Image hover effect */
+.img-hover {
+  @apply overflow-hidden;
+}
+
+.img-hover img {
+  @apply transition-transform duration-500;
+}
+
+.img-hover:hover img {
+  @apply scale-105;
+}
