@@ -30,7 +30,11 @@ const Hero = () => {
               className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
               style={{ transitionDelay: '200ms' }}
             >
-              <p className="font-body text-lg text-charcoal-light mb-2">Hey, I'm Aryan,</p>
+              <div className="inline-block px-3 py-1 mb-4 border border-charcoal/20 rounded-full bg-cream-dark/50 backdrop-blur-sm">
+                <span className="font-body text-xs font-medium tracking-widest text-charcoal-light uppercase">
+                  BASED IN NEW YORK
+                </span>
+              </div>
               <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-bold text-charcoal leading-[1.1] tracking-tight">
                 A SOFTWARE
                 <br />
@@ -79,7 +83,7 @@ const Hero = () => {
                 <img
                   src="/memoji.png"
                   alt="Aryan Rajbhandari"
-                  className="w-full h-full object-contain object-center p-8"
+                  className="w-full h-full object-contain object-center scale-125 translate-y-4"
                 />
               </div>
             </div>
