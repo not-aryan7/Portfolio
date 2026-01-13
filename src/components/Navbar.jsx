@@ -13,8 +13,8 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { href: '#about', label: 'About' },
-    { href: '#projects', label: 'Projects' },
+    { href: '#top', label: 'About' },
+    { href: '#projects', label: 'Project' },
     { href: '#experience', label: 'Experience' },
     { href: '#skills', label: 'Skills' },
     { href: '#contact', label: 'Contact' },
@@ -23,8 +23,8 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${scrolled
-          ? 'bg-cream/95 backdrop-blur-sm shadow-sm'
-          : 'bg-transparent'
+        ? 'bg-cream/95 backdrop-blur-sm shadow-sm'
+        : 'bg-transparent'
         }`}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12">
@@ -37,9 +37,9 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-12">
-            <a href="#about" className="font-body text-xs text-charcoal-light hover:text-charcoal transition-colors tracking-widest uppercase">ABOUT</a>
-            <a href="#experience" className="font-body text-xs text-charcoal-light hover:text-charcoal transition-colors tracking-widest uppercase">TIMELINE</a>
-            <a href="#projects" className="font-body text-xs text-charcoal-light hover:text-charcoal transition-colors tracking-widest uppercase">WORK</a>
+            <a href="#top" className="font-body text-xs text-charcoal-light hover:text-charcoal transition-colors tracking-widest uppercase">ABOUT</a>
+            <a href="#experience" className="font-body text-xs text-charcoal-light hover:text-charcoal transition-colors tracking-widest uppercase">EXPERIENCE</a>
+            <a href="#projects" className="font-body text-xs text-charcoal-light hover:text-charcoal transition-colors tracking-widest uppercase">PROJECT</a>
             <a href="#contact" className="font-body text-xs text-charcoal-light hover:text-charcoal transition-colors tracking-widest uppercase">CONTACT</a>
           </div>
 

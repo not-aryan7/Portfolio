@@ -11,7 +11,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="min-h-screen bg-cream">
+    <div id="top" className="min-h-screen bg-cream">
       <Navbar />
       <main>
         <Hero />
