@@ -3,38 +3,47 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
-      title: "ITS Helpdesk",
-      company: "SUNY Plattsburgh",
+      title: "IT Intern",
+      company: "Clinton County",
+      period: "Spring 2026 (Current)",
+      location: "Plattsburgh, NY",
+      current: true,
+      responsibilities: [
+        "Supporting over 600 users across multiple government departments with technical troubleshooting and system access.",
+        "Assisting in network administration, system maintenance, and cybersecurity threat monitoring.",
+        "Documenting IT procedures and creating user guides to streamline technology adoption."
+      ]
+    },
+    {
+      title: "Microfinance Analyst (Intern)",
+      company: "Maitri Multipurpose Cooperative Ltd",
+      period: "May 2025 – Aug 2025",
+      location: "Kathmandu, Nepal",
+      current: false,
+      responsibilities: [
+        "Analyzed client financial data and repayment capacity to support credit risk evaluation and loan approvals.",
+        "Automated monthly portfolio reports using Excel, significantly improving data accuracy and tracking speed."
+      ]
+    },
+    {
+      title: "Technical Support Specialist",
+      company: "SUNY Plattsburgh | ITS Helpdesk",
       period: "Jan 2025 – Present",
       location: "Plattsburgh, NY",
       current: true,
       responsibilities: [
-        "Assist students, faculty, and staff with IT inquiries and system access issues",
-        "Provide technical support and troubleshooting for hardware, software, and network-related issues",
-        "Diagnose and resolve technical problems via phone, email, and in-person support"
-      ]
-    },
-    {
-      title: "IT Technician Intern",
-      company: "SUNY Plattsburgh",
-      period: "Dec 2024 – Jan 2025",
-      location: "Plattsburgh, NY",
-      current: false,
-      responsibilities: [
-        "Assembled and configured computers from the ground up, including hardware installation",
-        "Deployed and maintained computer systems across campus",
-        "Maintained and managed college servers, assisting with system updates and security patches"
+        "Providing diagnostic support for hardware, software, and network issues for students and faculty.",
+        "Resolved technical inquiries via phone and in-person, maintaining high service standards."
       ]
     },
     {
       title: "Senator",
-      company: "Student Government",
+      company: "Student Government Association",
       period: "Jan 2023 – May 2024",
       location: "Plattsburgh, NY",
       current: false,
       responsibilities: [
-        "Developed and executed comprehensive public relations strategies to enhance student engagement",
-        "Planned and promoted student government activities with effective communication"
+        "Developed public relations strategies and enhanced student engagement through effective communication."
       ]
     }
   ];
@@ -50,12 +59,12 @@ const Experience = () => {
           {experiences.map((exp, index) => (
             <div
               key={index}
-              className="card"
+              className="card group hover:border-olive/30 transition-all duration-300"
             >
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
                 <div>
                   <div className="flex items-center gap-3 mb-1">
-                    <h3 className="font-display text-xl md:text-2xl font-bold text-charcoal">
+                    <h3 className="font-display text-xl md:text-2xl font-bold text-charcoal group-hover:text-olive transition-colors">
                       {exp.title}
                     </h3>
                     {exp.current && (
@@ -64,12 +73,12 @@ const Experience = () => {
                       </span>
                     )}
                   </div>
-                  <p className="text-olive font-body text-sm">
+                  <p className="text-charcoal font-body text-sm font-medium">
                     @ {exp.company}
                   </p>
                 </div>
                 <div className="flex flex-col items-start md:items-end gap-1">
-                  <span className="font-body text-sm text-charcoal-light">
+                  <span className="font-body text-sm text-charcoal-light font-medium">
                     {exp.period}
                   </span>
                   <span className="text-xs text-charcoal-light">
@@ -78,10 +87,10 @@ const Experience = () => {
                 </div>
               </div>
 
-              <ul className="space-y-2">
+              <ul className="space-y-3">
                 {exp.responsibilities.map((resp, idx) => (
                   <li key={idx} className="flex items-start gap-3 text-charcoal-light text-sm">
-                    <span className="text-olive mt-1">•</span>
+                    <span className="text-olive mt-1.5 min-w-[6px] h-[6px] rounded-full bg-olive/60"></span>
                     <span className="leading-relaxed">{resp}</span>
                   </li>
                 ))}
