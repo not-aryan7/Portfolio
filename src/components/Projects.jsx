@@ -18,10 +18,21 @@ const Projects = () => {
 
   const otherProjects = [
     {
+      title: "DataPilot",
+      description: "A local-first analytics engine that lets you query spreadsheets using plain English. Upload a CSV or Excel, ask a question, and get SQL + tables + charts instantly — powered by a RAG pipeline with Ollama, DuckDB, and FAISS.",
+      technologies: ["FastAPI", "DuckDB", "FAISS", "Ollama", "Vite"],
+      link: "https://github.com/not-aryan7/DataPilot",
+      icon: (
+        <svg className="w-6 h-6 text-charcoal group-hover:text-olive transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
+        </svg>
+      )
+    },
+    {
       title: "Company Acquisition & Valuation Model",
       description: "A versatile financial model designed to evaluate business acquisitions across various industries. Features include automated DCF valuation, sensitivity analysis, and dynamic debt servicing schedules.",
       technologies: ["Excel", "Financial Modeling"],
-      link: "https://github.com/not-aryan7/acquisition-model",
+      link: "https://github.com/not-aryan7",
       icon: (
         <svg className="w-6 h-6 text-charcoal group-hover:text-olive transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -82,7 +93,7 @@ const Projects = () => {
             </h2>
 
             <p className="text-charcoal-light leading-relaxed max-w-lg mb-10 text-lg">
-              A unified intelligence platform for traders and analysts. Blending real-time market monitoring, portfolio analytics, and automated alerting into a single, high-performance workflow.
+              A crypto dashboard I built that pulls live market data, tracks my portfolio, and sends me alerts when things move. Everything in one place instead of jumping between tabs.
             </p>
 
             <div className="space-y-8">

@@ -42,7 +42,7 @@ const Hero = () => {
                 Full Stack Developer | Financial Analyst | Economics & CS Dual Major
               </h3>
               <p className="font-body text-charcoal-light leading-relaxed text-lg">
-                Transforming financial theories into robust technical systems. A dual-major Developer & Analyst building algorithms that are technically sound and economically viable.
+                I build software that solves real financial problems — from trading dashboards to valuation models. CS and Econ dual major who codes and understands the numbers behind it.
               </p>
             </div>
 

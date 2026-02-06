@@ -30,7 +30,7 @@ const About = () => {
                 <div className="mt-2 min-w-[5px] h-[5px] rounded-full bg-olive"></div>
                 <div>
                   <h4 className="font-body font-semibold text-charcoal text-base">FINRA Securities Industry Essentials (SIE)</h4>
-                  <p className="text-charcoal-light text-sm mt-0.5">Demonstrating regulatory and capital markets knowledge.</p>
+                  <p className="text-charcoal-light text-sm mt-0.5">Covers securities regulations, capital markets, and industry fundamentals.</p>
                 </div>
               </div>
 
@@ -39,7 +39,7 @@ const About = () => {
                 <div className="mt-2 min-w-[5px] h-[5px] rounded-full bg-olive"></div>
                 <div>
                   <h4 className="font-body font-semibold text-charcoal text-base">Bloomberg Market Concepts (BMC)</h4>
-                  <p className="text-charcoal-light text-sm mt-0.5">Core proficiency in financial markers and terminal usage.</p>
+                  <p className="text-charcoal-light text-sm mt-0.5">Learned Bloomberg Terminal and core financial market concepts.</p>
                 </div>
               </div>
 
@@ -48,7 +48,7 @@ const About = () => {
                 <div className="mt-2 min-w-[5px] h-[5px] rounded-full bg-olive"></div>
                 <div>
                   <h4 className="font-body font-semibold text-charcoal text-base">Oracle Cloud Infrastructure</h4>
-                  <p className="text-charcoal-light text-sm mt-0.5">Cloud computing and architecture fundamentals.</p>
+                  <p className="text-charcoal-light text-sm mt-0.5">Covers OCI services, cloud architecture, and infrastructure basics.</p>
                 </div>
               </div>
 
@@ -57,7 +57,7 @@ const About = () => {
                 <div className="mt-2 min-w-[5px] h-[5px] rounded-full bg-olive"></div>
                 <div>
                   <h4 className="font-body font-semibold text-charcoal text-base">Excel Yellow Belt</h4>
-                  <p className="text-charcoal-light text-sm mt-0.5">Advanced data manipulation and spreadsheet modeling.</p>
+                  <p className="text-charcoal-light text-sm mt-0.5">Formulas, pivot tables, and data modeling in Excel.</p>
                 </div>
               </div>
 
@@ -66,7 +66,7 @@ const About = () => {
                 <div className="mt-2 min-w-1.5 h-1.5 rounded-full bg-olive animate-pulse"></div>
                 <div>
                   <h4 className="font-body font-semibold text-charcoal text-base">Financial Modeling (In Progress)</h4>
-                  <p className="text-charcoal-light text-sm mt-0.5">Advanced valuation and forecasting techniques.</p>
+                  <p className="text-charcoal-light text-sm mt-0.5">Working through DCF, LBO, and forecasting models.</p>
                   <p className="text-[10px] font-medium text-olive mt-1.5 uppercase tracking-wider">Note: Also preparing for Series 7/63 exams.</p>
                 </div>
               </div>
@@ -90,7 +90,7 @@ const About = () => {
                 <div>
                   <h4 className="font-body font-semibold text-charcoal text-base">Small Mutual Investing Fund</h4>
                   <p className="text-charcoal-light text-sm mt-0.5 font-medium italic mb-0.5">Active Analyst & Member</p>
-                  <p className="text-charcoal-light text-sm">Collaborating on equity analysis and portfolio construction.</p>
+                  <p className="text-charcoal-light text-sm">I help research stocks and build the fund's portfolio.</p>
                 </div>
               </div>
 
@@ -100,7 +100,7 @@ const About = () => {
                 <div>
                   <h4 className="font-body font-semibold text-charcoal text-base">Student Government Association</h4>
                   <p className="text-charcoal-light text-sm mt-0.5 font-medium italic mb-0.5">Senator (2023-2024)</p>
-                  <p className="text-charcoal-light text-sm">Led public relations strategies and student engagement initiatives.</p>
+                  <p className="text-charcoal-light text-sm">Handled PR and worked on getting more students involved on campus.</p>
                 </div>
               </div>
 
@@ -110,7 +110,7 @@ const About = () => {
                 <div>
                   <h4 className="font-body font-semibold text-charcoal text-base">CEO Club</h4>
                   <p className="text-charcoal-light text-sm mt-0.5 font-medium italic mb-0.5">Member</p>
-                  <p className="text-charcoal-light text-sm">Engaging in entrepreneurship and business leadership workshops.</p>
+                  <p className="text-charcoal-light text-sm">Workshops on startups and business leadership.</p>
                 </div>
               </div>
 

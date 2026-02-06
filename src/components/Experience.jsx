@@ -9,9 +9,9 @@ const Experience = () => {
       location: "Plattsburgh, NY",
       current: true,
       responsibilities: [
-        "Supporting over 600 users across multiple government departments with technical troubleshooting and system access.",
+        "Supporting users across multiple government departments with technical troubleshooting and system access.",
         "Assisting in network administration, system maintenance, and cybersecurity threat monitoring.",
-        "Documenting IT procedures and creating user guides to streamline technology adoption."
+        "Writing up IT docs and user guides so people can actually follow along."
       ]
     },
     {
@@ -43,7 +43,7 @@ const Experience = () => {
       location: "Plattsburgh, NY",
       current: false,
       responsibilities: [
-        "Developed public relations strategies and enhanced student engagement through effective communication."
+        "Ran PR efforts and worked on getting more students engaged with campus events."
       ]
     }
   ];

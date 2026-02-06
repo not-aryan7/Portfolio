@@ -24,7 +24,7 @@ const Skills = () => {
             TRUSTED TECHNOLOGIES
           </h3>
           <p className="text-charcoal-light text-sm hidden md:block">
-            Building with modern tools and frameworks
+            Tools and frameworks I use regularly
           </p>
         </div>
       </div>
