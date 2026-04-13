@@ -9,9 +9,10 @@ const Experience = () => {
       location: "Plattsburgh, NY",
       current: true,
       responsibilities: [
-        "Supporting users across multiple government departments with technical troubleshooting and system access.",
-        "Assisting in network administration, system maintenance, and cybersecurity threat monitoring.",
-        "Writing up IT docs and user guides so people can actually follow along."
+        "Handled cybersecurity cases through NYOSC — tracked incidents, documented findings, and coordinated responses across departments.",
+        "Researched and quoted IT equipment purchases, comparing vendors and specs to keep procurement costs down.",
+        "Built internal websites for IT system management and departmental tooling.",
+        "Configured and maintained network switches across county infrastructure."
       ]
     },
     {
