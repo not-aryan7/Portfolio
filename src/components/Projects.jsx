@@ -29,6 +29,17 @@ const Projects = () => {
       )
     },
     {
+      title: "Office OS",
+      description: "Multi-agent orchestration system built on OpenClaw. Five AI agents coordinated through an external Python orchestrator, file-based command queues, and shared JSON state — each agent runs a different model matched to its role so you're not burning expensive tokens on simple tasks.",
+      technologies: ["Python", "OpenClaw", "Discord", "OpenRouter"],
+      link: "https://github.com/not-aryan7/office-os",
+      icon: (
+        <svg className="w-6 h-6 text-charcoal group-hover:text-olive transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+        </svg>
+      )
+    },
+    {
       title: "Company Acquisition & Valuation Model",
       description: "A versatile financial model designed to evaluate business acquisitions across various industries. Features include automated DCF valuation, sensitivity analysis, and dynamic debt servicing schedules.",
       technologies: ["Excel", "Financial Modeling"],
